@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h2>This is HTML Form tutorial</h2>
+    <form action="backend.php">
+        <label for="Name"> Name </label>
+        <div>
+            <input type="text" name="myName" id="Name">
+        </div>
+        <br>
+        <label for="Role"> Role</label>
+        <div>
+            <input type="text" name="myRole" id="Role">
+        </div>
+        <br>
+        <label for="Email"> Email</label>
+        <div>
+             <input type="email" name="my Email" id="Email">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Bonus <input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            Am I Eligible? <input type="checkbox" name="myEligibility" checked>
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="myGender"> Female<input type="radio" name="myGender"> Other <input
+                type="radio" name="myGender">
+        </div>
+        <br>
+        <label for="Write"> Write About Yourself:</label>
+        <div>
+            <br><textarea name="myBio" cols="30" rows="10" id="Write"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="Car">Select Car</label>
+            <select name="myCar" id="Car">
+                <option value="Tesla" selected> Tesla</option>
+                <option value="BMW"> BMW</option>
+                <option value="Maruti 800"> Maruti 800</option>
+                <option value="Jaguar"> Jaguar</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+
+</body>
+
+</html>
