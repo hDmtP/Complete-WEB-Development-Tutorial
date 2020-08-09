@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhara Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+    /*CSS Reset*/
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('images/fit.jpg');
+        height: 1051px;
+        color: white;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 0px;
+        display: inline-block;
+        /*border: 2px solid red;*/
+        margin: 20px;
+    }
+
+    .left img {
+        width: 185px;
+        /* filter: invert(100%);*/
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+       /* border: 2px solid blue;*/
+
+
+
+    }
+
+    .mid ul li a {
+        font-size: 20px;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 0px;
+        display: inline-block;
+        /*border: 2px solid rgb(247, 243, 5);*/
+        margin: 20px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+
+        font-size: 15px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 20px 10px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: rgba(138, 143, 143, 0.911);
+        text-decoration: none;
+        padding: 20px 10px;
+        text-decoration: underline;
+    }
+
+    .btn {
+        margin: 0px 8px;
+        background-color: aqua;
+        color: rgb(49, 48, 48);
+        padding: 5px 15px;
+        border: 2px solid gray;
+        border-radius: 5px;
+        font-size: 30px;
+        cursor: pointer;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .btn:hover {
+        color: rgb(199, 125, 15);
+
+    }
+
+    .btn1:hover {
+        color: rgb(0, 0, 0);
+    }
+    .btn2:hover {
+        color: silver;
+    }
+
+    .btn1 {
+        margin: 0px 8px;
+        background-color: rgb(145, 255, 0);
+        color: rgb(202, 21, 21);
+        padding: 5px 15px;
+        border: 2px solid rgba(128, 128, 128, 0.74);
+        border-radius: 5px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .btn2{
+        margin: 0px 8px;
+        background-color: orange;
+        color: rgb(124, 11, 11);
+        padding: 5px 15px;
+        border: 2px solid gray;
+        border-radius: 5px;
+        font-size: 23px;
+        cursor: pointer;
+        font-family: 'Baloo Bhai 2', cursive;
+        text-align: center;
+        width: 86%;
+
+    }
+
+    .container {
+        /*border: 2px solid gold;*/
+
+        padding: 38px;
+        width: 32%;
+        margin-top: 80px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .form-group input{
+        text-align: center;
+    display: block;
+    width: 86%;
+    padding: 14px;
+    margin: 15px;
+    border: 2px solid gold;
+    font-size: 28px;
+    border-radius: 8px;
+    font-family: 'Baloo Bhai 2', cursive;
+    }
+    
+    
+    
+    .container h1{
+        text-align: center;
+    }
+    
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- for logo -->
+            <img src="images/123.po9PQ7" alt="">
+
+        </div>
+        <div class="mid">
+
+            <!-- for navbar -->
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">BMR calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Join Us</button><button class="btn1">Blog</button>
+            <!-- for buttons -->
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the Best GYM in Barrackpore Sub-Division now!</h1> 
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Whatsapp no.">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age(min:14)">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender(M/F)">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email /Ph no.[Opt.]">
+            </div>
+            <br>
+            <button class="btn2">
+                I need a Six pac!(Submit)
+            </button>
+        </form>
+    </div>
+
+</body>
+
+</html>
