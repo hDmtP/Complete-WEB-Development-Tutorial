@@ -15,23 +15,35 @@
           .container{
               background-color: burlywood;
               border: 3px solid rgb(143, 32, 32);
-              padding: 21px 22px 12px 36px;
-              margin: 17px 35px 17px 35px;
+              padding: 20px 20px 20px 20px;
+              /*margin: 17px 35px 17px 35px;*/
               /*we can set padding for top, bottom, left and right individually*/
               /*Same for margin*/
               /*padding & margin top, right, bottom, left*/  /*padding: 15px, 18px, 14px, 114px;*/
 
-             margin-top: 43px;
-             margin-bottom: 5px;
-             margin-left: 25px;
-             margin-right: 35px;
+             margin-top: 50px;
+             margin-bottom: 50px;
+             padding-left: 50px;
+             padding-right: 50px;
+             border-radius: 15px;
+             width: 533px;
 
-              border-radius: 15px;
-              width: 533px;
+              display: flex;
+              flex-direction: column;
+              flex-wrap: wrap;
+              justify-content: center;
+            }
+            .contcontainer{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
           }
     </style>
 </head>
 <body>
+<div class="contcontainer">
     <div class="container">
         <h3>This is my Heading</h3>
         <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde praesentium mollitia doloribus odit dolores officiis quasi. Beatae facilis voluptatum eius. Est, voluptatum ipsam.</p>
@@ -47,6 +59,7 @@
         <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde praesentium mollitia doloribus odit dolores officiis quasi. Beatae facilis voluptatum eius. Est, voluptatum ipsam.</p>
 
     </div>
+</div>
     
 </body>
 </html>
