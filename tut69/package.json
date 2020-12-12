@@ -1,0 +1,17 @@
+{
+  "name": "tut69",
+  "version": "1.0.0",
+  "description": "lolololololololololol bruh bylat!",
+  "main": "tut69.js",
+  "scripts": {
+    "test": "wtf"
+  },
+  "keywords": [
+    "tom"
+  ],
+  "author": "hDmtP",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
