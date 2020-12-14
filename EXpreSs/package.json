@@ -1,0 +1,14 @@
+{
+  "name": "hdmtp",
+  "version": "1.0.0",
+  "description": "exploring express and npm",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hDmtP645",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
