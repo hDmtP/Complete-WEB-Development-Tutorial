@@ -4,7 +4,9 @@
   "description": "lolololololololololol bruh bylat!",
   "main": "tut69.js",
   "scripts": {
-    "test": "wtf"
+    "test": "wtf",
+    "start": "node tut69.js",
+    "devStart": "nodemon tut69.js"
   },
   "keywords": [
     "tom"
